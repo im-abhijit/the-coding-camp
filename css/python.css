@@ -46,6 +46,7 @@
     color: #fff;
     font-size: 2rem;
     font-weight: bold;
+    display: none;
 }
 
 #python .overview h3{
