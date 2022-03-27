@@ -79,6 +79,7 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 20rem;
 }
 
 .home .content h1{
@@ -249,11 +250,10 @@ section{
     }
     .course-box{
         flex-direction: column;
-        
     }
+   
     .course-box .course{
         width: 100%;
         margin: 20px auto;
-        max-width: 200px;
     }
 }
