@@ -1,0 +1,146 @@
+#python{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#python .overview{
+    width: 70%;
+}
+#python .overview .course-img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+#python .overview .course-head{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#python .overview .course-head .course-name{
+    width: 70%;
+}
+#python .overview .course-head .course-name .star{
+    margin: 6px 0;
+}
+#python .overview .course-head .course-name .star i{
+    color:#fdc93b;
+    font-size: 2rem;
+}
+#python .overview .course-head .course-name h2{
+    font-size: 3rem;
+    color: #254e58;
+
+}
+#python .overview .course-head .course-name p{
+    font-size: 2rem;
+    color: #254e58;
+}
+#python .overview .course-head span{
+    padding: 16px 22px;
+    border-radius: 5px;
+    background-color: #254e58;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#python .overview h3{
+    font-size: 3rem;
+    color: #254e58;
+    padding: 35px 0 25px 0;
+}
+#python .overview p{
+    font-size: 1.5rem;
+    color: #254e58;
+}
+#python .overview .learn{
+    padding-bottom: 15px;
+}
+#python .overview .learn p i {
+    color: #254e58;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#python .overview .learn p{
+    margin-bottom: 8px;
+    font-size: 1.7rem;
+}
+#python .overview hr{
+    height: 2px;
+    background-color: #254e58;
+    margin-top: 40px;
+}
+
+#python .enroll{
+    width: 300px;
+    padding: 0 30px 30px 30px;
+    border-radius: 11px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+}
+#python .enroll h3{
+    font-size: 2rem;
+    color: #254e58;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    text-align: left;
+}
+#python .enroll p{
+    font-size: 1.5rem;
+    color: #254e58;
+    margin: 15px 0;
+}
+#python .enroll p i{
+    color: #254e58;
+    font-weight: bold;
+    margin-right: 18px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+#python .enroll .enroll-btn{
+    padding: 25px 0 20px 0;
+    margin: auto;
+    text-align: center;
+}
+#python .enroll .enroll-btn a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 13px 45px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background: #254e58;
+}
+
+@media (max-width:768px){
+    #python{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 8vw 4vw;
+    }
+    #python .overview{
+        width: 100%;
+    }
+    #python .overview .course-img{
+        width: 100%;
+        height: 100%;
+
+    }
+    #python .enroll{
+        margin-top: 25px;
+        width: 100%;
+    }
+    #python .overview .course-head span{
+        font-size: 1.5rem;
+        padding: 10px 16px;
+    }
+
+}
